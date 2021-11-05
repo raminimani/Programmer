@@ -10,7 +10,7 @@ public class TeamProj7 {
 		Scanner input=new Scanner(System.in);
 		int number=0;
 		int cont=2;
-		boolean prime=true;
+		boolean pri=true;
 		do {
 			System.out.println("Please enter your number for checking the prime number");
 			number=input.nextInt();
@@ -19,17 +19,16 @@ public class TeamProj7 {
 			int result=number%cont;
 			cont++;
 			if(result==0) {
-				prime=false;
+				pri=false;
 				break;
 			}
 		}while(cont<number);
-		if(prime==false) {
+		if(pri==false) {
 			System.out.println(number+" is not a Prime number.");
 		}else {
 			System.out.println(number+" is a Prime number.");
 		}
-		input.close();
-		
+
 	}
 
 }

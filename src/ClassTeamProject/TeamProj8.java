@@ -13,26 +13,26 @@ public class TeamProj8 {
 		
 		System.out.println("Please enter your first number");
 		
-		int n1=scan.nextInt();
+		int num1=scan.nextInt();
 		
 		System.out.println("Please enter your Second number");
 		
-		int n2=scan.nextInt();
+		int num2=scan.nextInt();
 		
 		System.out.println("Please enter to which number you want to count");
 			
 		int cnt=scan.nextInt();
 		
-		int n3;
+		int num3;
 		int x;
-		 System.out.print(n1+" "+n2);//printing 0 and 1    
+		 System.out.print(num1+" "+num2);//printing 0 and 1    
 		    
 		 for(x=2;x<cnt;++x)//loop starts from 2 because 0 and 1 are already printed    
 		 {    
-		  n3=n1+n2;    
-		  System.out.print(" "+n3);    
-		  n1=n2;    
-		  n2=n3;    
+		  num3=num1+num2;    
+		  System.out.print(" "+num3);    
+		  num1=num2;    
+		  num2=num3;    
 		 }    
 			
 
