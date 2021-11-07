@@ -9,9 +9,9 @@ public class MethodlangTester {
 		
 		Methodlang scan=new Methodlang();
 		
-		scan.lang("Spanish");
-		scan.lang("French");
-		scan.lang("Persian");
+		scan.lang("Spain");
+		scan.lang("France");
+		scan.lang("Afghanistan");
 		scan.lang("Chiness");
 	
 		
