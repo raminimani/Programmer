@@ -9,19 +9,19 @@ public class Students {
 	
 	public static void main(String[] args) {
 		
-		Students st1=new Students();
-		st1.StuName="Ramin";
-		st1.StudID="PD045";
+		Students Student1=new Students();
+		Student1.StuName="Ramin";
+		Student1.StudID="PD045";
 		NumOFStud++;
 		
-		Students st2=new Students();
-		st2.StuName="Nasir";
-		st2.StudID="PD0121";
+		Students Student2=new Students();
+		Student2.StuName="Nasir";
+		Student2.StudID="PD0121";
 		NumOFStud++;
 		
-		Students st3=new Students();
-		st3.StuName="Sebastian";
-		st3.StudID="PD058";
+		Students Student3=new Students();
+		Student3.StuName="Sebastian";
+		Student3.StudID="PD058";
 		NumOFStud++;
 		
 		System.out.println(NumOFStud);
