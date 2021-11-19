@@ -1,6 +1,7 @@
-package JavaClass19;
+package JavaClass17;
 
 public class Pet {
+
     String name;
     String breed;
     String color;
@@ -38,4 +39,3 @@ class Cat extends Pet{
         System.out.println(age);
     }
 }
-
