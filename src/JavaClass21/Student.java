@@ -20,13 +20,11 @@ public class Student {
 
         @Override
         void intelligent() {
-            super.intelligent();
             System.out.println("Lots of the Syntax students are intelligent and they try their best");
         }
 
         @Override
         void Teachers() {
-            super.Teachers();
             System.out.println("The Syntax teachers has different methods of teaching");
         }
         void homeWorks(){
@@ -40,13 +38,11 @@ public class Student {
     class collageStudents extends Student{
         @Override
         void subject() {
-            super.subject();
             System.out.println("The collage students studies all the subjects which is inside curriculum");
         }
 
         @Override
         void Teachers() {
-            super.Teachers();
             System.out.println("Collage Students love the Teachers with any methods of teaching they have");
         }
         void exam(){
@@ -59,7 +55,6 @@ public class Student {
     class schoolStudents extends Student{
         @Override
         void Teachers() {
-            super.Teachers();
             System.out.println("We don't like some of the teachers teaching method");
         }
         void holidays(){

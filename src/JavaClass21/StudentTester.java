@@ -12,6 +12,7 @@ public class StudentTester {
            obj.Teachers();
            obj.intelligent();
        }
+        System.out.println("************************************");
         Student student1=new schoolStudents();
        schoolStudents stu=(schoolStudents) student1;
        stu.classActivity();
