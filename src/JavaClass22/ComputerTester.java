@@ -14,6 +14,8 @@ public class ComputerTester {
                 obj.ROM();
                 obj.Security();
 
+                System.out.println("*************************");
+
 
                 if (obj instanceof Apple){
                     ((Apple) obj).color();
